@@ -1,0 +1,9 @@
+{{#if this.isShown}}
+  <button
+    disabled={{this.fooIsRunning}}
+    {{on "click" this.fooFunc}}
+    {{on "blur" this.hide}}
+  >
+    button
+  </button>
+{{/if}}
